@@ -1,0 +1,11 @@
+encoder_dropout: 0.4
+encoder_model: tnt_s_patch16_224
+decoder_dropout: 0.4
+decoder_depth: 8
+decoder_heads: 6
+decoder_dim: 384  # This must match the encoder's embed_dim
+decoder_model: cnn
+patch_num: 4
+voxel_size: 32
+num_cnn_layers: 3
+num_resnet_blocks: 2
