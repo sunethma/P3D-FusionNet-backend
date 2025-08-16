@@ -173,3 +173,26 @@ python eval.py \
 
 ---
 
+# 🙏 Acknowledgements
+
+This project is based on:
+
+[3D-RETR: End-to-End Single and Multi-View 3D Reconstruction with Transformers (BMVC 2021)](https://github.com/fomalhautb/3D-RETR)
+
+---
+
+📚 Citation
+
+If you use this work, please cite:
+
+```bash
+
+@inproceedings{3d-retr,
+  author    = {Zai Shi, Zhao Meng, Yiran Xing, Yunpu Ma, Roger Wattenhofer},
+  title     = {3D-RETR: End-to-End Single and Multi-View 3D Reconstruction with Transformers},
+  booktitle = {BMVC},
+  year      = {2021}
+}
+
+```
+
