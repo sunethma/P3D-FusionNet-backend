@@ -77,15 +77,11 @@ Serves as a research contribution in advancing hybrid neural architectures for s
 
 ## ✨ Features
 
-Upload a single 2D image → generate a 3D voxel model.
-
-Enhanced feature extraction using TNT.
-
-Efficient linear attention with Performer.
-
-Trained & tested on ShapeNet (13 categories).
-
-Backend hosted on Hugging Face Spaces.
+- 📷 Upload a single 2D image → generate a 3D voxel model  
+- 🧩 Enhanced feature extraction with **Transformer-in-Transformer (TNT)**  
+- ⚡ Efficient **linear attention** using Performer  
+- 🗂️ Trained & tested on **ShapeNet** (13 categories: chairs, cars, tables, etc.)  
+- ☁️ Backend hosted on **Hugging Face Spaces**
 
 ---
 ## 📁 Project Structure
