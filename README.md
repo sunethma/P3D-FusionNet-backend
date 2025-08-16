@@ -51,7 +51,7 @@ Serves as a research contribution in advancing hybrid neural architectures for s
 
 ## 📖 Table of Contents
 
-[Features](#Features)
+[Features](#features)
 
 [Project Structure](Project Structure)
 
