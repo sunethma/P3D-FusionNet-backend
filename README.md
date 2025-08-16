@@ -233,7 +233,7 @@ output.obj → the generated 3D model saved locally
 ---
 
 ## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE file](https://github.com/sunethma/P3D-FusionNet-backend/blob/main/LICENSE) for details.
 
 ---
 
