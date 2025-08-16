@@ -9,6 +9,9 @@ pinned: false
 
 # 📦 P3D-FusionNet: Single-View 3D Reconstruction
 
+<img width="1457" height="301" alt="image" src="https://github.com/user-attachments/assets/335dbd04-4a43-41d5-b142-04eb5fded615" />
+
+
 ## 📘 Project Overview: P3D-FusionNet
 
 P3D-FusionNet is my Final Year Project, built on top of the 3D-RETR [(BMVC 2021)](https://www.bmvc2021-virtualconference.com/conference/papers/paper_1112.html).
@@ -53,21 +56,21 @@ Serves as a research contribution in advancing hybrid neural architectures for s
 
 [Features](https://github.com/sunethma/P3D-FusionNet-backend/blob/main/README.md#-features)  
 
-[Project Structure](Project Structure)
+[Project Structure](https://github.com/sunethma/P3D-FusionNet-backend#-project-structure)
 
-[Environment Setup]
+[Environment Setup](https://github.com/sunethma/P3D-FusionNet-backend?tab=readme-ov-file#%EF%B8%8F-environment-setup)
 
-[Dataset]
+[Dataset](https://github.com/sunethma/P3D-FusionNet-backend?tab=readme-ov-file#-dataset)
 
-[Training]
+[Training](https://github.com/sunethma/P3D-FusionNet-backend?tab=readme-ov-file#%EF%B8%8F-training)
 
-[Evaluation]
+[Evaluation](https://github.com/sunethma/P3D-FusionNet-backend?tab=readme-ov-file#-evaluation)
 
-[Demo]
+[Demo](https://github.com/sunethma/P3D-FusionNet-backend?tab=readme-ov-file#-demo)
 
-[Acknowledgements]
+[Acknowledgements](https://github.com/sunethma/P3D-FusionNet-backend?tab=readme-ov-file#-acknowledgements)
 
-[Citation]
+[Citation](https://github.com/sunethma/P3D-FusionNet-backend?tab=readme-ov-file#-citation)
 
 ---
 
