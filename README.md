@@ -51,7 +51,7 @@ Serves as a research contribution in advancing hybrid neural architectures for s
 
 ## 📖 Table of Contents
 
-- [Features](https://github.com/sunethma/P3D-FusionNet-backend/blob/main/README.md#-features)  
+[Features](https://github.com/sunethma/P3D-FusionNet-backend/blob/main/README.md#-features)  
 
 [Project Structure](Project Structure)
 
