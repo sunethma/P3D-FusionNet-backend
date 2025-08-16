@@ -56,17 +56,47 @@ Backend hosted on Hugging Face Spaces.
 ---
 # 📁 Project Structure
 ```
-P3D-FusionNet/
-│── config/                  # Config files for model and training
-│── src/                     # Source code (model, dataloaders, utils)
-│── app.py                   # Backend app entry point (Hugging Face)
-│── requirements.txt         # Python dependencies
-│── Dockerfile               # Container setup for deployment
-│── output.binvox            # Example generated voxel output
-│── README.md                # This file
+├── config/
+├── data/
+├── src/
+├── Dockerfile
+├── README.md
+├── app.py
+├── eval.py
+├── output.binvox
+├── requirements.txt
+└── train.py
 
 ```
 
 ---
+# ⚙️ Environment Setup
 
+Clone the repo:
 
+```bash
+git clone https://github.com/YOUR_USERNAME/P3D-FusionNet.git
+cd P3D-FusionNet
+
+```
+
+Install dependencies:
+```bash
+
+pip install -r requirements.txt
+```
+
+Alternatively, create environment in Google Colab:
+```bash
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Copy repo between Drive and Colab
+import shutil
+shutil.copytree('/content/drive/MyDrive/FYP_IMPLEMENTATION_USING_TNT_And_Performers6', '/content/3D-RETR')
+
+# Install dependencies
+!pip install torch torchvision pyyaml pytorch-lightning mlflow gitpython performer-pytorch transformers timm pillow
+
+```
