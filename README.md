@@ -9,8 +9,39 @@ pinned: false
 
 # 📦 P3D-FusionNet: Single-View 3D Reconstruction
 
-P3D-FusionNet is my Final Year Project, built on top of the [3D-RETR (BMVC 2021)](https://www.bmvc2021-virtualconference.com/conference/papers/paper_1112.html) framework.
-It reconstructs 3D voxel models from single 2D images, enhanced with Transformer-in-Transformer (TNT) feature extraction and Performer-based attention for efficient computation.
+## 📘 Project Overview: P3D-FusionNet
+
+P3D-FusionNet is my Final Year Project, built on top of the 3D-RETR [(BMVC 2021)](https://www.bmvc2021-virtualconference.com/conference/papers/paper_1112.html).
+It reconstructs 3D voxel models from single 2D images, enhanced with Transformer-in-Transformer (TNT) feature extraction and Performer-based scalable attention for efficient computation.
+
+## 🔍 Research Motivation & Gaps
+
+Single-view 3D reconstruction remains one of the most challenging problems in computer vision because a single image provides limited spatial and depth information.
+Existing approaches have the following gaps:
+
+CNN-based methods → struggle with static feature extraction and often lose fine structural details.
+
+Transformer-based methods → powerful but computationally expensive, not optimized for efficiency in real-time or memory-sensitive scenarios.
+
+Feature extraction → current methods often fail to capture contextual and hierarchical spatial relationships, leading to inaccurate reconstructions for complex shapes.
+
+## 🚀 Our Contribution
+
+P3D-FusionNet addresses these issues with a hybrid architecture that improves both accuracy and efficiency:
+
+TNT-based hierarchical feature extraction → preserves contextual and spatial details from 2D images.
+
+Performer attention → reduces computational complexity while scaling effectively to larger inputs.
+
+Voxel-based output generation → provides memory-efficient and high-quality 3D representations.
+
+## 📌 Significance
+
+Produces more detailed 3D reconstructions from a single image.
+
+Optimized for accuracy + speed, making it suitable for real-time applications and limited-resource environments.
+
+Serves as a research contribution in advancing hybrid neural architectures for single-view 3D reconstruction.
 
 🚀 A deployed demo (backend + trained model) is available on Hugging Face Spaces:
 
@@ -18,9 +49,9 @@ It reconstructs 3D voxel models from single 2D images, enhanced with Transformer
 
 --- 
 
-# 📖 Table of Contents
+## 📖 Table of Contents
 
-[Features](Features)
+[Features](#Features)
 
 [Project Structure](Project Structure)
 
@@ -41,7 +72,7 @@ It reconstructs 3D voxel models from single 2D images, enhanced with Transformer
 ---
 
 
-# ✨ Features
+## ✨ Features
 
 Upload a single 2D image → generate a 3D voxel model.
 
@@ -54,7 +85,7 @@ Trained & tested on ShapeNet (13 categories).
 Backend hosted on Hugging Face Spaces.
 
 ---
-# 📁 Project Structure
+## 📁 Project Structure
 ```
 ├── config/
 ├── data/
@@ -70,7 +101,7 @@ Backend hosted on Hugging Face Spaces.
 ```
 
 ---
-# ⚙️ Environment Setup
+## ⚙️ Environment Setup
 
 Clone the repo:
 
@@ -101,7 +132,7 @@ shutil.copytree('folder location in your google drive', '/content/P3D-FusionNet'
 
 ```
 
-# 📊 Dataset
+## 📊 Dataset
 
 We use the ShapeNet dataset:
 
@@ -121,7 +152,7 @@ SHAPENET_IMAGES = '/content/ShapeNet/ShapeNetRendering'
 
 ```
 
-# 🏋️ Training
+## 🏋️ Training
 
 Example training command (Colab):
 
@@ -147,7 +178,7 @@ python train.py \
     --loss_type dice
 ```
 
-# 📈 Evaluation
+## 📈 Evaluation
 
 Run evaluation with trained checkpoint:
 
@@ -173,7 +204,36 @@ python eval.py \
 
 ---
 
-# 🙏 Acknowledgements
+## 🎮 Demo
+Run the backend locally
+
+Start the backend API by running:
+
+```bash
+
+python app.py
+
+```
+This will launch the server at http://localhost:5000.
+Test the API locally
+
+Once the backend is running, you can send a request with a 2D image to generate a 3D model.
+For example, using curl:
+
+```bash
+curl -X POST http://localhost:5000/reconstruct \
+  -F "image=@example.png" \
+  -o output.obj
+
+```
+
+image → your input 2D image
+
+output.obj → the generated 3D model saved locally
+
+---
+
+## 🙏 Acknowledgements
 
 This project is based on:
 
@@ -181,7 +241,7 @@ This project is based on:
 
 ---
 
-📚 Citation
+## 📚 Citation
 
 If you use this work, please cite:
 
@@ -195,4 +255,8 @@ If you use this work, please cite:
 }
 
 ```
+## 🧑‍💻 Author
+
+Created by Sunethma Welathanthri
+
 
