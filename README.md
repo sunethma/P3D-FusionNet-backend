@@ -9,9 +9,6 @@ pinned: false
 
 # 📦 P3D-FusionNet: Single-View 3D Reconstruction
 
-<img width="1457" height="301" alt="image" src="https://github.com/user-attachments/assets/335dbd04-4a43-41d5-b142-04eb5fded615" />
-
-
 ## 📘 Project Overview: P3D-FusionNet
 
 P3D-FusionNet is my Final Year Project, built on top of the 3D-RETR [(BMVC 2021)](https://www.bmvc2021-virtualconference.com/conference/papers/paper_1112.html).
